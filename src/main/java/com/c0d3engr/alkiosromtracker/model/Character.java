@@ -15,6 +15,35 @@ public class Character {
     @JoinColumn(name = "account_id")
     private Account account;
 
-    // Getters and Setters
-    // ...
+    public Long getCharacterId() {
+        return characterId;
+    }
+
+    public void setCharacterId(Long characterId) {
+        this.characterId = characterId;
+    }
+
+    public String getCharacterName() {
+        return characterName;
+    }
+
+    public void setCharacterName(String characterName) {
+        this.characterName = characterName;
+    }
+
+    public String getCharacterClass() {
+        return characterClass;
+    }
+
+    public void setCharacterClass(String characterClass) {
+        this.characterClass = characterClass;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
+    }
 }
