@@ -1,6 +1,6 @@
 package com.c0d3engr.alkiosromtracker.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Character {

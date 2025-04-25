@@ -1,6 +1,6 @@
 package com.c0d3engr.alkiosromtracker.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
