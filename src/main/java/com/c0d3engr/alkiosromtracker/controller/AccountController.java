@@ -1,7 +1,7 @@
 package com.c0d3engr.alkiosromtracker.controller;
 
-import com.example.model.Account;
-import com.example.service.AccountService;
+import com.c0d3engr.alkiosromtracker.model.Account;
+import com.c0d3engr.alkiosromtracker.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

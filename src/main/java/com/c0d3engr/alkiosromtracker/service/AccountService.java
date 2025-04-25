@@ -1,6 +1,6 @@
 package com.c0d3engr.alkiosromtracker.service;
 
-import com.example.model.Account;
+import com.c0d3engr.alkiosromtracker.model.Account;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package com.c0d3engr.alkiosromtracker.service;
 
-import com.example.model.Account;
-import com.example.repository.AccountRepository;
+import com.c0d3engr.alkiosromtracker.model.Account;
+import com.c0d3engr.alkiosromtracker.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
