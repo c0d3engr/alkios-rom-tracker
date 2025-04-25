@@ -3,16 +3,14 @@ package com.c0d3engr.alkiosromtracker.model;
 import javax.persistence.*;
 
 @Entity
-public class Account {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long accountId;
-
-    private String accountName;
-    private Integer totalZeny = 0;
+    private Long userId;
+    private String username;
+    private String email;
+    private String passwordHash;
 
     // Getters and Setters
     // ...
 }
-
-
